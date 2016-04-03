@@ -17,7 +17,7 @@ class goalsViewController: UIViewController {
     @IBOutlet weak var box1: UIImageView!
     @IBOutlet weak var box2: UIImageView!
     @IBOutlet weak var box3: UIImageView!
- 
+    @IBOutlet weak var trophy: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +34,9 @@ class goalsViewController: UIViewController {
             box3.image = UIImage(named: "check")
             //isSelected1 = false
         }
+        
+        trophy.hidden = true
+        
         print("viewDidLoad()")
     }
     
@@ -61,7 +64,9 @@ class goalsViewController: UIViewController {
             isSelected1 = false
         }
         if(isSelected1 == true && isSelected2 == true && isSelected3 == true){
-            performSegueWithIdentifier("toCompleted", sender: self)
+            trophy.hidden = false
+            delay(1, closure: {self.performSegueWithIdentifier("toCompleted", sender: self)})
+            //performSegueWithIdentifier("toCompleted", sender: self)
         }
     }
 
@@ -75,7 +80,9 @@ class goalsViewController: UIViewController {
             isSelected2 = false
         }
         if(isSelected1 == true && isSelected2 == true && isSelected3 == true){
-            performSegueWithIdentifier("toCompleted", sender: self)
+            trophy.hidden = false
+            delay(1, closure: {self.performSegueWithIdentifier("toCompleted", sender: self)})
+            //performSegueWithIdentifier("toCompleted", sender: self)
         }
     }
     
@@ -89,9 +96,21 @@ class goalsViewController: UIViewController {
             isSelected3 = false
         }
         if(isSelected1 == true && isSelected2 == true && isSelected3 == true){
-            performSegueWithIdentifier("toCompleted", sender: self)
+            trophy.hidden = false
+            delay(1, closure: {self.performSegueWithIdentifier("toCompleted", sender: self)})
+            //performSegueWithIdentifier("toCompleted", sender: self)
         }
     }
+    
+    func delay(delay:Double, closure:()->()) {
+        dispatch_after(
+            dispatch_time(
+                DISPATCH_TIME_NOW,
+                Int64(delay * Double(NSEC_PER_SEC))
+            ),
+            dispatch_get_main_queue(), closure)
+    }
+
     
     /*
     // MARK: - Navigation
