@@ -12,6 +12,8 @@
 		E3AD8B731CB071A300846558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3AD8B721CB071A300846558 /* Assets.xcassets */; };
 		E3AD8B761CB071A300846558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AD8B741CB071A300846558 /* LaunchScreen.storyboard */; };
 		E3AD8B7E1CB0730900846558 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD8B7D1CB0730900846558 /* mapViewController.swift */; };
+		E3AD8B861CB100F200846558 /* imageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD8B851CB100F200846558 /* imageViewExtensions.swift */; };
+		E3AD8B8E1CB1403A00846558 /* goalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD8B8D1CB1403A00846558 /* goalsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E3AD8B751CB071A300846558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3AD8B771CB071A300846558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3AD8B7D1CB0730900846558 /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		E3AD8B851CB100F200846558 /* imageViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = imageViewExtensions.swift; path = ../imageViewExtensions.swift; sourceTree = "<group>"; };
+		E3AD8B8D1CB1403A00846558 /* goalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = goalsViewController.swift; path = ../goalsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				E3AD8B6B1CB071A300846558 /* AppDelegate.swift */,
+				E3AD8B851CB100F200846558 /* imageViewExtensions.swift */,
 				E3AD8B7D1CB0730900846558 /* mapViewController.swift */,
+				E3AD8B8D1CB1403A00846558 /* goalsViewController.swift */,
 				E3AD8B6F1CB071A300846558 /* Main.storyboard */,
 				E3AD8B721CB071A300846558 /* Assets.xcassets */,
 				E3AD8B741CB071A300846558 /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3AD8B7E1CB0730900846558 /* mapViewController.swift in Sources */,
+				E3AD8B8E1CB1403A00846558 /* goalsViewController.swift in Sources */,
+				E3AD8B861CB100F200846558 /* imageViewExtensions.swift in Sources */,
 				E3AD8B6C1CB071A300846558 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

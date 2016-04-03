@@ -23,9 +23,19 @@ class mapViewController: UIViewController, CLLocationManagerDelegate {
         
         let latitude = "40.728864"
         let longitude = "-73.995283"
+        //print(UIImage(named: "chelsea"))
         
     }
-
+    
+    @IBAction func toGoalsController(sender: AnyObject) {
+        performSegueWithIdentifier("toGoalsController", sender: self)
+        print("going to goals controller!!!!")
+    }
+    
+    /*override func viewDidAppear(animated: Bool) {
+        westImage.image = UIImage(named: "chelsea")
+    }*/
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -53,7 +63,6 @@ class mapViewController: UIViewController, CLLocationManagerDelegate {
         print(placemark.postalCode!)
         print(placemark.administrativeArea!)
         print(placemark.country!)
-        
         
     }
 
