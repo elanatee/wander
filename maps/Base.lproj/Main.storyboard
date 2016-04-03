@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--Map View Controller-->
@@ -49,13 +49,65 @@
                     <view key="view" contentMode="scaleToFill" id="Upa-h7-064">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="battery-park" translatesAutoresizingMaskIntoConstraints="NO" id="Lmi-bT-Un1">
+                                <rect key="frame" x="15" y="432" width="161" height="85"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chelsea" translatesAutoresizingMaskIntoConstraints="NO" id="Y3q-wP-Clm">
+                                <rect key="frame" x="0.0" y="123" width="223" height="119"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="china-town." translatesAutoresizingMaskIntoConstraints="NO" id="N7L-wM-2wP">
+                                <rect key="frame" x="162" y="382" width="33" height="18"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="east-village" translatesAutoresizingMaskIntoConstraints="NO" id="OJa-CO-A2r">
+                                <rect key="frame" x="154" y="262" width="162" height="86"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="financial-d" translatesAutoresizingMaskIntoConstraints="NO" id="Ihm-ek-YeX">
+                                <rect key="frame" x="39" y="394" width="233" height="124"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="little-italy" translatesAutoresizingMaskIntoConstraints="NO" id="dU1-oS-v6y">
+                                <rect key="frame" x="116" y="335" width="91" height="47"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="l-e-side" translatesAutoresizingMaskIntoConstraints="NO" id="frv-Be-Usk">
+                                <rect key="frame" x="146" y="337" width="179" height="96"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="soho" translatesAutoresizingMaskIntoConstraints="NO" id="yxa-RV-nND">
+                                <rect key="frame" x="64" y="317" width="106" height="56"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tribeca." translatesAutoresizingMaskIntoConstraints="NO" id="tcz-5q-SUt">
+                                <rect key="frame" x="34" y="348" width="166" height="88"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nyu" translatesAutoresizingMaskIntoConstraints="NO" id="ogq-F7-jeg">
+                                <rect key="frame" x="78" y="247" width="157" height="82"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="west-village" translatesAutoresizingMaskIntoConstraints="NO" id="byP-cE-iT0">
+                                <rect key="frame" x="67" y="234" width="64" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new-york" translatesAutoresizingMaskIntoConstraints="NO" id="yoC-UL-Nko">
+                                <rect key="frame" x="-7" y="0.0" width="327" height="568"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DNd-BP-IpO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="784" y="238"/>
+            <point key="canvasLocation" x="784" y="279"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="battery-park" width="185" height="348"/>
+        <image name="chelsea" width="402" height="454"/>
+        <image name="china-town." width="120" height="86"/>
+        <image name="east-village" width="394" height="321"/>
+        <image name="financial-d" width="391" height="478"/>
+        <image name="l-e-side" width="410" height="368"/>
+        <image name="little-italy" width="121" height="190"/>
+        <image name="new-york" width="1242" height="2208"/>
+        <image name="nyu" width="268" height="318"/>
+        <image name="soho" width="294" height="213"/>
+        <image name="tribeca." width="298" height="334"/>
+        <image name="west-village" width="248" height="339"/>
+    </resources>
 </document>
