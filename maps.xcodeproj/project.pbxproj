@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E3AD8B6C1CB071A300846558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD8B6B1CB071A300846558 /* AppDelegate.swift */; };
-		E3AD8B6E1CB071A300846558 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AD8B6D1CB071A300846558 /* ViewController.swift */; };
 		E3AD8B711CB071A300846558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AD8B6F1CB071A300846558 /* Main.storyboard */; };
 		E3AD8B731CB071A300846558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3AD8B721CB071A300846558 /* Assets.xcassets */; };
 		E3AD8B761CB071A300846558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AD8B741CB071A300846558 /* LaunchScreen.storyboard */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		E3AD8B681CB071A300846558 /* maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3AD8B6B1CB071A300846558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3AD8B6D1CB071A300846558 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E3AD8B701CB071A300846558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3AD8B721CB071A300846558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3AD8B751CB071A300846558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				E3AD8B6B1CB071A300846558 /* AppDelegate.swift */,
-				E3AD8B6D1CB071A300846558 /* ViewController.swift */,
 				E3AD8B7D1CB0730900846558 /* mapViewController.swift */,
 				E3AD8B6F1CB071A300846558 /* Main.storyboard */,
 				E3AD8B721CB071A300846558 /* Assets.xcassets */,
@@ -139,7 +136,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3AD8B7E1CB0730900846558 /* mapViewController.swift in Sources */,
-				E3AD8B6E1CB071A300846558 /* ViewController.swift in Sources */,
 				E3AD8B6C1CB071A300846558 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +284,7 @@
 				E3AD8B7C1CB071A300846558 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
